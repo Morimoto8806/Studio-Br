@@ -1,0 +1,70 @@
+body {
+  color:white;
+  background:black;
+  margin: 0px;
+  font-family: "Chakra Petch", sans-serif;
+  margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px white;
+    padding: 20px;
+    font-size: 15px;
+    color: red;
+}
+
+.introduçao {
+   background: green;
+   padding-bottom: 80px;
+   padding-top: 20px;
+   display: flex;
+   justify-content: center;
+}
+
+.texto {
+   margin-right: 40px;
+}
+h1 {
+   font-size: 40px;
+}
+p {
+   font-size: 20px;
+}
+img {
+   height: 200px;
+}
+
+.parceiro {
+   display: flex;
+   overflow-x: auto;
+   gap: 10px;
+}
+
+.França{
+   padding-left: 20px;
+   padding-right: 20px;
+}
+
+.atualizacao {
+   padding-left: 20px;
+   padding-right: 20px;
+   margin-top: 50px;
+}
+
+.França img {
+   opacity: 0.5 ;
+   height: 200px;
+}
+
+.França img:hover {
+   opacity: 1.0;
+   border: 1px green;
+}
+
+.França h3 {
+   color: turquoise;
+}
+
+.atualizacao h2 {
+   color: red;
+}
